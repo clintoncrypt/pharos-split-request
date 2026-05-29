@@ -1,0 +1,32 @@
+{
+  "name": "pharos-split-request",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "build": "tsc",
+    "deploy": "ts-node src/contracts/deploy.ts",
+    "split": "ts-node scripts/split.ts",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "type": "commonjs",
+  "dependencies": {
+    "@langchain/core": "^0.3.26",
+    "dotenv": "^17.4.2",
+    "ethers": "^6.16.0",
+    "groq-sdk": "^1.2.1",
+    "openai": "^6.39.1",
+    "pharos-agent-kit": "^1.0.2",
+    "viem": "^2.51.3",
+    "zod": "^3.25.76"
+  },
+  "devDependencies": {
+    "@types/node": "^25.9.1",
+    "solc": "^0.8.35",
+    "ts-node": "^10.9.2",
+    "typescript": "^5.8.3"
+  }
+}
