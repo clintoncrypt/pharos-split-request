@@ -4,3 +4,4 @@ dist/
 *.bak
 *.env.*
 !.env.example
+deployed.json
